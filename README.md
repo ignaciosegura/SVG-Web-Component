@@ -5,6 +5,8 @@ SVG Web Component
 
 A set of classes and utility functions that let you build a SVG scene and manage complex, nested SVG objects as if they were web components, including most of its advantages and the percs of a modern JS framework: templates, observables, reactive re-rendering and so on.
 
+## Please notice: I developed this library for as long as it was needed. It's fully functional in its current state, but it's no longer being actively developed.
+
 # What problem does it solve?
 
 Web Components don’t work inside SVGs. SVGs exist in their own namespace and web components inside them don’t exist for the browser. The browser doesn’t “see” a web component tag when it’s inside an SVG and therefore doesn’t activate or render it. Thisisnota bug, it's part of the specification, and so far there is no intention to change that, so if we want SVG and modern browser features, we need to code them ourselves.
